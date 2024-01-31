@@ -2,14 +2,16 @@
 //максимально зменшений мейн
 package App;
 
-import App.Core.appStart;
+import App.Core.CoreAppStart;
 
 import java.io.FileNotFoundException;
 
 
 public class Main {
     public static void main(String[] args) throws FileNotFoundException {
-        appStart.Start();
+        CoreAppStart appStart = new CoreAppStart();
+        appStart.start();
+
     }
 
 }
