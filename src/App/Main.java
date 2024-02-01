@@ -12,6 +12,7 @@ public class Main {
         CoreAppStart appStart = new CoreAppStart();
         appStart.start();
 
+
     }
 
 }

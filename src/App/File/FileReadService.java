@@ -13,7 +13,7 @@ public class FileReadService {
 
         } catch (IOException e) {
             e.printStackTrace();
-            return null; // Або ви можете обробити помилку іншим чином або повернути якийсь захисний значення, наприклад, порожній рядок.
+            return e.getMessage();
         }
     }
 }
